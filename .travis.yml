@@ -1,5 +1,7 @@
 language: java
 
+sudo: enabled
+
 gradle check
 
 ./gradlew check
@@ -16,4 +18,3 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 
-    
